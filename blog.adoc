@@ -1,0 +1,46 @@
+= Blog
+:stylesheet: clean.css
+:nofooter:
+
+== 09/03/2019
+
+I only have time to work on the arXiv project so often, so I'm taking a lot of
+time between sessions to think about what I'm doing. When I look at my system
+design notes, I feel like all the decisions I'm making are the obvious choices,
+but they also were not at all obvious when I started thinking about them. It's a
+good feeling.
+
+== 08/03/2019
+
+I haven't made a lot of progress on my projects. I _did_ create a Scaleway VM
+and shoved an OAI harvester on there that's happily downloading the arXiv's
+backlog of metadata. I can also parse the XML it fetches, and have some ideas
+about how I'm going to store it.
+
+This lack of progress mostly comes from me being nerd-sniped into thinking
+about bounded queues under load. My 
+https://github.com/bookingcom/carbonapi/issues/35[old work project]
+wanted to use a FIFO queue to hold its requests. That is a bad idea, because
+FIFO queues perform very poorly under load, as I 
+https://github.com/gunnihinn/queuesim[went a little overboard]
+in demonstrating.
+
+Funnily enough, that very simple thing is one of my most popular Github
+projects ever.
+
+== 05/03/2019
+
+Point: https://carlchenet.com/do-not-ignore-the-mastodon-social-network/[You should not ignore the Mastodon social network any more].
+
+Counterpoint: I truly, madly, deeply want to ignore all new and existing social
+networks.
+
+== 04/03/2019
+
+To motivate me to actually finish some of the projects I start, I'm going to
+try announcing them to the world. Shame me into finishing these:
+
+- A nicer arXiv frontend of daily new additions.
+- A modern typesetting of Beauville's _Surfaces algebriques complexes_.
+
+Shame. Shame. Shame.
