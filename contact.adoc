@@ -1,0 +1,6 @@
+= Contact
+
+Email:: gunnar.thor.magnusson [at] gmail [dot] com
+
+Phone, Whatsapp, Telegram, Signal:: `+31 (0)6 15 57 23 AB`, where the
+numbers `A` and `B` satisfy: `AB = 0`, `A + B = 4` and `A > B`.
